@@ -601,7 +601,7 @@ static inline UINTPTR XSysMonPsu_GetEffBaseAddress(UINTPTR BaseAddress,
 
 /* Functions in xsysmonpsu.c */
 s32 XSysMonPsu_CfgInitialize(XSysMonPsu *InstancePtr, XSysMonPsu_Config *ConfigPtr,
-			  u32 EffectiveAddr);
+			  UINTPTR EffectiveAddr);
 void XSysMonPsu_Reset(XSysMonPsu *InstancePtr);
 u32 XSysMonPsu_GetStatus(XSysMonPsu *InstancePtr, u32 SysmonBlk);
 void XSysMonPsu_StartAdcConversion(XSysMonPsu *InstancePtr);

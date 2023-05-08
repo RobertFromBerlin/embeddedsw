@@ -99,7 +99,7 @@ static void XSysMonPsu_StubHandler(void *CallBackRef);
 *
 ******************************************************************************/
 s32 XSysMonPsu_CfgInitialize(XSysMonPsu *InstancePtr, XSysMonPsu_Config *ConfigPtr,
-			  u32 EffectiveAddr)
+			  UINTPTR EffectiveAddr)
 {
 	u32 PsSysmonControlStatus;
 	u64 IntrStatus;
